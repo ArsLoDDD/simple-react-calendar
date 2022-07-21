@@ -1,0 +1,37 @@
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+.numbersDate {
+  padding: 0 8px;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #b7b7b7;
+}
+
+.calendarConainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  width: 48%;
+  background-color: white;
+}
+.notVisible {
+  visibility: hidden;
+}
+.flexSection {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.flexSection > * {
+  margin: 0.2em 0 0.5em 0;
+  color: #009991;
+  font-weight: bold;
+  font-size: 20px;
+}
